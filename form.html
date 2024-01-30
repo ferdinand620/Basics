@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      input[type="text"],
+      select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: blue;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: solid blue;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="text"]:hover {
+        border: solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: black; padding: 20%; width: 20%">
+      <form>
+        <label style="color: blue; font-size: x-large">Sign In</label><br />
+        <div>
+          <input type="text" id="username" name="username" value="username" />
+        </div>
+        <div>
+          <input type="text" id="pass" name="password" value="password" /><br />
+          <input type="submit" value=" Sign In" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
